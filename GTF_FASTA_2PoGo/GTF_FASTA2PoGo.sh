@@ -8,6 +8,3 @@ export PATH=$PATH:/path/to/folder
 
 # First, make PoGo compatible input GTF/FASTA files
 python map_peptides_to_pacbio_database.py
-
-# Then, using the newly created files, run Pogo.
-PoGo -fasta ./results/SMC_CORRECTED_orf_refined_PoGo_compatible.fasta -gtf ./results/SMC_CORRECTED_with_cds_PoGo_compatible.gtf -in ./results/CAD96_Pogo.txt -format BED
