@@ -1,5 +1,5 @@
 #### This module takes your isoform track GTF file and makes it a color-coded BED12 file to add to the UCSC Genome Browser
-Do this in the following order: <br />
+Do this in the following order (or use `gtf2bed.sh` as a model): <br />
 1. Download the `gtfToGenePred` and `genePredToBed` tools from [UCSC](https://hgdownload.soe.ucsc.edu/admin/exe/macOSX.arm64/)
 2. Make sure those two tools are in your `PATH`
    - You can add them to your path with `export PATH=$PATH:/your/directory/path`
