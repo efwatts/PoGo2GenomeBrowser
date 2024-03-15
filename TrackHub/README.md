@@ -27,8 +27,10 @@ The official TrackHub tutorial can be found [here](https://www.sanger.ac.uk/tool
   **Now your tracks are added to Genome Browser!**
   
 ### To make color-coded `.bed12` files, follow these steps: 
-- Run the script in this repository `/scripts/color2bed.py`
-- As of March 1, 2024, this is a first draft script...meaning you will need to manually direct it to your files.
+- Run the script in this repository `/scripts/color2bed.py`(this was the first draft of the script, so it works, but you need to manually direct it to your files <br />
+  **OR**
+- Use `/scripts/color2bed.sh` to call the script `/scripts/color2bed_automate.py`
+- If you are using Rivanna at UVA or another HPC that uses slurm, you can use the files in the `AutomatedScripts4Rivanna` directory
 #### These .bed12 files need to be added to a web accessible track hub for the [UCSC Genome Browser](https://genome.ucsc.edu/)
 - The output of the script can be put into a GitHub repository and linked to the [UCSC Genome Browser](https://genome.ucsc.edu/)! <br />
 - Make a repository that contains the `.bed12` files output by the `color2bed.py` script. <br />
