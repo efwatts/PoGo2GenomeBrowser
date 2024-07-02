@@ -3,10 +3,10 @@
 
 You will want to create a conda environment I called PoGo to run these scripts. You can do this by downloading the `PoGo.yml` file in this repository and running the following:
 ```
-conda env create -f environment.yml
+conda env create -f PoGo.yml
 ```
 
-To do this visit the folders in thies repository in the following order: <br />
+To do this visit the folders in this repository in the following order: <br />
 1. If you have your own squence data, do this step first. If you're using GENCODE/ENSAMBL data, skip this step: [GTF_FASTA_2PoGo](https://github.com/efwatts/PoGo2GenomeBrowser/tree/main/GTF_FASTA_2PoGo)
 1. Put your peptide list in PoGo format: [Peptides2Pogo](https://github.com/efwatts/PoGo2GenomeBrowser/tree/main/Peptides2PoGo)
 2. Run PoGo: [PoGo](https://github.com/efwatts/PoGo2GenomeBrowser/tree/main/RunPoGo)
